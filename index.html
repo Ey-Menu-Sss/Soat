@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(123deg, rgba(0,255,221,1) 22%, rgba(0,198,255,1) 77%);
+        }
+        .bigSquare{
+            width: 800px;
+            margin: 0 auto;
+            height: 800px;
+            border: 6px solid white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .dumalo{
+            padding: 20px;
+            width: 600px;
+            margin: 0 auto;
+            height: 600px;
+            border: 2px solid rgb(0, 255, 213);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .sek{
+            position: absolute;
+            z-index: -1;
+            width: 5px;
+            height: 580px;
+            background: linear-gradient( red 50%, transparent 50%);
+            border-radius: 10px;
+        }
+        .min{
+            position: absolute;
+            z-index: -2;
+            width: 10px;
+            height: 500px;
+            background: linear-gradient(green 50%,transparent 50%);
+            border-radius: 10px;
+        }
+        .soat{
+            position: absolute;
+            z-index: -3;
+            width: 15px;
+            height: 450px;
+            background: linear-gradient( rgb(98, 0, 255) 50%,transparent 50%);
+            border-radius: 10px;
+        }
+        #jj{
+            position: absolute;
+        }
+        .center{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="bigSquare">
+        <div class="dumalo">
+        <div class="center">
+            <div class="sek"></div>
+            <div class="min"></div>
+            <div class="soat"></div>
+        </div>
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
